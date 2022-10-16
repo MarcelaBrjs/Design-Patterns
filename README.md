@@ -1,12 +1,21 @@
 # Solid Principles
 1. Single Responsability
     - Su única responsabilidad es generar el reporte.
+    https://github.com/MarcelaBrjs/Design-Patterns/blob/97e8488984f7eeaad40ea39146960953da803657/src/patterns/report_generator.py#L3
+      
     - Su única responsabilidad es dar formato al contenido del reporte impreso.
+    https://github.com/MarcelaBrjs/Design-Patterns/blob/97e8488984f7eeaad40ea39146960953da803657/src/patterns/print_report.py#L8
+    
     - Su única responsabilidad es dar formato al contenido del reporte web.
+    https://github.com/MarcelaBrjs/Design-Patterns/blob/97e8488984f7eeaad40ea39146960953da803657/src/patterns/web_report.py#L6
+    
 2. Open Close
     - Nuevos tipos de reportes se pueden agregar sin necesidad de modificar el código existente.
+    https://github.com/MarcelaBrjs/Design-Patterns/blob/97e8488984f7eeaad40ea39146960953da803657/src/patterns/report.py#L9
+    
 3. Dependency Inversion
     - Report no depende del tipo de reporte ni del formato de este.
+    https://github.com/MarcelaBrjs/Design-Patterns/blob/97e8488984f7eeaad40ea39146960953da803657/src/patterns/report_generator.py#L7
 
 # Building the Project Locally
 Install VirtualEnvironment (one time)
