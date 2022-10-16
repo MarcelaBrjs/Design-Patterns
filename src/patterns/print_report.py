@@ -5,7 +5,7 @@ from patterns.csv_utils import Ride
 # Su única responsabilidad es dar formato al contenido del reporte impreso.
 
 # Decorator Design Pattern
-class PrintReport():
+class PrintReport:
 
     def format_content(rides: array):
         # Title
