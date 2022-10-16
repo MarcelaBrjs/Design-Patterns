@@ -4,7 +4,7 @@
     https://github.com/MarcelaBrjs/Design-Patterns/blob/97e8488984f7eeaad40ea39146960953da803657/src/patterns/report_generator.py#L3
       
     - Su única responsabilidad es dar formato al contenido del reporte impreso.
-    https://github.com/MarcelaBrjs/Design-Patterns/blob/97e8488984f7eeaad40ea39146960953da803657/src/patterns/print_report.py#L8
+    https://github.com/MarcelaBrjs/Design-Patterns/blob/91b26417f1e77e2f9d7cef8b54a0a8f1e193a014/src/patterns/print_report.py#L8
     
     - Su única responsabilidad es dar formato al contenido del reporte web.
     https://github.com/MarcelaBrjs/Design-Patterns/blob/97e8488984f7eeaad40ea39146960953da803657/src/patterns/web_report.py#L6
